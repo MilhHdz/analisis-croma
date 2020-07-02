@@ -12,7 +12,7 @@ app = Flask(__name__)
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
-@app.route("/", methods=['GET'])
+@app.route("/")
 def index():
     return "Hola mundo"
 
