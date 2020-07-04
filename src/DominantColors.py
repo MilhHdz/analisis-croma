@@ -16,7 +16,7 @@ import argparse
 
 import time
 
-with open('src\colors.json') as clr:
+with open('src/colors.json') as clr:
     color_dict = json.load(clr)
 
 parser = argparse.ArgumentParser()
